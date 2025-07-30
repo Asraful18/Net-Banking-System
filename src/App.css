@@ -1,0 +1,650 @@
+/* #root{
+    background-image: url(./assets/BG.jpg);
+} */
+.full-container{
+    margin: 0;
+    width: 100%;
+    height: 55vw;
+    background-image: url(./assets/BG10.jpg);
+    overflow: hidden;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.login-container{
+    display: flex;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.login-text{
+     width: 400px;
+    height: 500px;
+    background-color: blue;
+    color: white;
+    align-content: center;
+    border-radius: 16px 50% 50% 16px;
+    padding-left: 50px;
+}
+.login-text2{
+     width: 400px;
+    height: 500px;
+    background-color: blue;
+    color: white;
+    align-content: center;
+    border-radius: 50% 16px 16px 50%;
+    padding-left: 50px;
+}
+.login-form{
+    width: 400px;
+    height: 500px;
+    align-content: center;
+    padding: 50px;
+    border-radius: 16px 0 0 16px;
+    padding-top: 50px;
+    text-align: center;
+}
+.login-form .login-button{
+    margin-top: 20px;
+    background: blue;
+    
+}
+.login-form .login-input{
+    margin-top: 20px;
+    border: none;
+    background: white;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+     outline: none;
+    box-shadow: none;
+}
+.login-form i{
+    font-size: 48px;
+    position: relative;
+}
+.nav-main{
+    margin-left:1037px ;
+}
+.nav-main i{
+    font-size: 30px;
+    padding: 7px;
+    text-align: center;
+}
+
+Nav{
+ box-shadow: 1px 0px 5px 0px black;
+}
+.section-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* height: 520px; */
+    background-image: linear-gradient(-15deg, blue,rgb(105, 150, 247));
+    box-shadow: 0 1px 2px rgb(27, 25, 25);
+}
+@media (max-width:770px) {
+    .section-1{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        font-size: small;
+    }
+    .slider-section{
+        display: flex;
+        margin-left: -330px;
+        flex-wrap: nowrap;
+    }
+    .nav-main i{
+    font-size: 30px;
+    margin-left: 0px;
+    text-align: center;
+    }
+    .nav-main{
+    margin-left:0px ;
+    }
+    .section-card{
+    display:flex ;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
+    gap: 70px;
+    }
+    .section14-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:70px;
+    }
+    .card22-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .percent-card{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        overflow: scroll;
+    }
+    .section12{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+}
+.account{
+    margin-left: 50px;
+    font-size: larger;
+}
+.account h4{
+    color: rgb(18, 227, 255);
+    font-size: 28px;
+}
+.account h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family:Helvetica, sans-serif;
+    font:bold;
+  
+}
+.account button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 18px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background: white;
+    color:rgb(15, 79, 219);
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.section-1 img{
+    height: 500px;
+    width: 550px;
+}
+.slider-section{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    margin:20px ;
+    
+    margin-left: 330px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.slider img{
+    border-radius: 16px;
+    display: inline-block;
+    object-fit: cover;
+}
+.account1-info h5{
+    color: rgb(17, 137, 59);
+}
+.account1-info h2{
+    font: bold;
+    font-size: 30px;
+}
+.account1-info{
+    text-align: center;
+    padding-top: 20px;
+}
+.card1-section{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: none;
+}
+#card-section .card-item{
+    height: 250px;
+    width: 350px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgba(73, 72, 72, 0.914);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#card-section .card-item .card-title i{
+    font-size: 50px;
+    
+}
+#section-21{
+    margin-top: 30px;
+}
+.section-2{
+    background: rgba(0, 0, 255, 0.854);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section-2 img{
+    width: 250px;
+    height: 250px;
+}
+.section-2 h2{
+    color: white;
+    padding-bottom: 10px;
+}
+.section-2 p{
+    color: rgba(255, 255, 255, 0.791);
+}
+.section-2 button{
+    background: white;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 16px;
+    color: rgb(86, 82, 82);
+    transition: background-color 0.7s ease-in;
+    transition: color 0.7s;
+}
+.section-2 button:hover{
+    background-color: rgb(192, 192, 192);
+    color: black;
+    cursor: pointer;
+}
+.gender{
+    display: flex;
+    gap: 30px;
+   margin: 20px;
+}
+.account-container{
+    width: 800px;
+    justify-content: center;
+    border-radius: 16px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 7px 1px rgb(53, 51, 51);
+    padding: 30px;
+    margin-left: 380px;
+    
+}
+.acc-container-item{
+    width: 600px;
+    padding: 30px 0 30px 0;
+    justify-content: center;
+    margin-left: 65px;
+}
+.button-item{
+   
+    gap: 50px;
+}
+.section-2{
+    background: rgba(0, 0, 255, 0.854);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section-2 img{
+    width: 250px;
+    height: 250px;
+}
+.section-2 h2{
+    color: white;
+    padding-bottom: 10px;
+}
+.section-2 p{
+    color: rgba(255, 255, 255, 0.791);
+}
+.section-2 button{
+    background: white;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 16px;
+    color: rgb(86, 82, 82);
+    transition: background-color 0.7s ease-in;
+    transition: color 0.7s;
+}
+.section-2 button:hover{
+    background-color: rgb(192, 192, 192);
+    color: black;
+    cursor: pointer;
+}
+#b10{
+    width: 300px;
+   
+}
+
+/*Section-12*/
+.section-12{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    box-shadow: 0 1px 2px rgb(27, 25, 25);
+}
+.account12{
+    margin-left: 50px;
+    font-size: larger;
+}
+.account12 p{
+    color: rgb(86, 82, 82);
+}
+.account12 h2{
+    color: black ;
+    letter-spacing: 1px;
+    font-family:Helvetica, sans-serif;
+    font:bold;
+  
+}
+.account12 button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 18px;
+    margin-top: 10px;
+      border: 1px solid white;
+    background: rgb(15, 79, 219);
+    color:white;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.acc12-img{
+   border-radius: 0 150px 150px 0;
+   width: 900px;
+   margin-left: -200px;
+   display: flex;
+}
+.acc12-img img{
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 550px;
+    
+}
+
+.section13{
+    background: #f5faff;
+}
+.section13-img img{
+    width: 400px;
+    height: 400px;
+
+}
+.section-card{
+    display:flex ;
+    flex: 1;
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
+    gap: 70px;
+}
+.section13-info{
+    background: white;
+    border-radius: 0 20px 0 20px;
+    border: 1px solid rgb(172, 169, 169);
+    padding: 7px;
+    
+    text-align: center;
+}
+.section13-info h6{
+    color: rgb(117, 114, 114);
+    font-size: 19px;
+}
+.section14-item{
+    display: flex;
+    justify-content: center;
+    gap:70px;
+}
+.section14{
+    background-color: #f5faff;
+    padding: 20px 0 50px 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.672);
+}
+.card-item14 i{
+    font-size: 35px;
+    color: blue;
+}
+.card-item14{
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   border: 0;
+   width: 300px;
+   
+}
+.profile-section{
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient( blue,rgb(173, 199, 255));
+    padding: 50px;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 16px;
+}
+.profile-icon{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.profile-icon i{
+    text-align: center;
+    font-size: 38px;
+    padding-bottom: 20px;
+}
+.profile-info h3{
+    background: white;
+    border-radius: 16px;
+    margin-top: 30px ;
+    box-shadow: 1px 1px 5px 1px gray;
+    padding: 16px;
+    font-size: 22px;
+    display: flex;
+}
+.profile-info Button{
+    margin-top: 20px;
+    margin-left: 150px;
+    background: blue;
+}
+/* Desktop styles */
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  /* #card-section{
+    display: block; 
+    overflow-x: auto ;
+    overflow-y: hidden;
+    white-space: nowrap;
+  } */
+
+
+  #card-section .card-item {
+    display: inline-block;
+    /* Adjust item width for mobile scrolling */
+    width: 80vw; /* Example: 80% of viewport width */
+    margin: 15px;
+    justify-content: center;
+    white-space: wrap;
+  }
+}*/
+.section15{
+    background: #f5faff;
+    height: 400px;
+}
+.section15-img img{
+    width: 300px;
+    height: 200px;
+}
+.section15-card{
+    margin-top: 20px;
+    display:flex ;
+    height: 400px;
+    justify-content:center;
+    gap: 100px;
+}
+.section15-info{
+    padding: 7px;
+    text-align: center;
+}
+.section15-info h6{
+    color: rgb(117, 114, 114);
+    font-size: 19px;
+}
+ .subscribe{
+     display: flex;
+     justify-content:space-between ;
+     padding:20px;
+ }
+ .subscribe .quick-links ul{
+    list-style-type: none;
+ }
+ .subscribe .email-form{
+    text-align: center;
+ }
+ .subscribe .email-form Button{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 16px;
+ }
+ .subscribe .email-form .input{
+    border-radius: 16px;
+    text-align: center;
+ }
+ .contact-section{
+    display: flex;
+    justify-content: space-around;
+
+ }
+ .contact-section img{
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+ }
+ .contact-section .contact-info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center
+ }
+ .contact-section .contact-info i{
+    font-size:30px ;
+ }
+ .contact-section .contact-info p{
+    color: gray;
+    font-size: smaller;
+ }
+ .contact-form{
+    margin-top: 100px;
+
+ }
+.contact-in .login-input{
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    width: 300px;
+}
+.section-12 .dropdown-toggle::after{
+    display: none !important;
+}
+.faq-section {
+  max-width: 720px;
+  margin: auto;
+  padding: 20px;
+}
+
+.faq-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 15px 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: #ddd;
+  background-color: #555;
+  font-weight: bold;
+  cursor: pointer;
+}
+.icon{
+    text-align: center;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.faq-answer {
+  padding: 15px;
+  color: #555;
+}
+.percent-card{
+    display: flex;
+    gap: 30px;
+    height: 150px;
+}
+.p-card-item{
+    background-image: linear-gradient(45deg,skyblue,white);
+    padding: 30px;
+    text-align: center;
+    line-height: 1.7px;
+}
+.p-card-item  .card-title{
+    font-size: 28px;
+    font: bolder;
+    padding-bottom: 20px;
+}
+.card2-item .card-icon{
+    font-size:  40px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.card22-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    gap: 30px;
+}
+.team-profile{
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   margin-top: 50px;
+   height: 500px;
+}
+.profile-image img{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.profile-image{
+    text-align: center;
+    color: gray;
+    margin-bottom: -10px;
+}
+.social-media{
+    transform: background-image 0.7s;
+}
+.social-media:hover{
+    position: relative;
+    display: block;
+    z-index: 1;
+    justify-content: center;
+    font-size: 38px;
+    gap: 15px;
+    border-radius: 16px;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    bottom:350px;
+    background-image: linear-gradient(transparent,blue);
+}
+.social-media i{
+    color: #fff;
+}
