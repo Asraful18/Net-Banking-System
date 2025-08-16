@@ -7,7 +7,6 @@ import Productcard from '../components/Productcard'
 import Subscribe from '../components/Subscribe'
 import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { HashLink } from 'react-router-hash-link'
 const Home = () => {
   return <>
     <Navberdata />
